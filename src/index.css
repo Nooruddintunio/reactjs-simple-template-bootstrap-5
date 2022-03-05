@@ -1,0 +1,42 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+#header{
+  width: 100%;
+  height: 80vh;
+  margin-top: 40px;
+}
+#header h1{
+  margin:0 0 10px 0;
+  font-weight: 700;
+  color: black;
+}
+#header .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+.heading{
+  font-weight: bold;
+  color: rgb(156, 19, 19);
+  text-align: center;
+}
+.menu_active{
+  border-bottom: 1px solid #CCC;
+  font-weight: bold;
+}
+.brand-name{
+  color: #0387c2;
+}
